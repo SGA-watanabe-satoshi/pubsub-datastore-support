@@ -1,0 +1,4 @@
+cron:
+- description: "delete expire record"
+  url: /expire
+  schedule: every 5 minutes from 0:00 to 9:00

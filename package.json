@@ -1,0 +1,25 @@
+{
+  "name": "pubsub-datastore-support",
+  "version": "0.0.1",
+  "description": "PubSub to DataStore support program for appengine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "pubsub",
+    "datastore",
+    "appengine"
+  ],
+  "author": "Satoshi Watanabe",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.1.0",
+    "@google-cloud/pubsub": "^0.14.5",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
